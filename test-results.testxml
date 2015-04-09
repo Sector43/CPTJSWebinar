@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Tests>
+  <Test>
+    <Name>viewTable should be hidden on initial load (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable should be hidden on initial load (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+  <Test>
+    <Name>viewTable should hide target column if found (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable should hide target column if found (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+  <Test>
+    <Name>viewTable adds icon column as new column if view has locked items (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable adds icon column as new column if view has locked items (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+  <Test>
+    <Name>viewTable adds icon column in proper location (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable adds icon column in proper location (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+  <Test>
+    <Name>viewTable doesn&apos;t add icon column as new column if view doesn&apos;t have locked items (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable doesn&apos;t add icon column as new column if view doesn&apos;t have locked items (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+  <Test>
+    <Name>viewTable keeps original HTML if newColumnLocation paramater is invalid, NaN, or higher than view column count  (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable keeps original HTML if newColumnLocation paramater is invalid, NaN, or higher than view column count  (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+  <Test>
+    <Name>viewTable keeps original HTML if no items in View (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable keeps original HTML if no items in View (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+  <Test>
+    <Name>viewTable keeps original HTML if undefined column name supplied (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable keeps original HTML if undefined column name supplied (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+  <Test>
+    <Name>viewTable shows if undefined column name supplied (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable shows if undefined column name supplied (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+  <Test>
+    <Name>viewTable shows if invalid viewData supplied (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable shows if invalid viewData supplied (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+  <Test>
+    <Name>viewTable keeps original HTML if error is thrown (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable keeps original HTML if error is thrown (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+  <Test>
+    <Name>viewTable shows if error is thrown (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable shows if error is thrown (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+  <Test>
+    <Name>viewTable logs errors to the console (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable logs errors to the console (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+  <Test>
+    <Name>viewTable calls server if DOM doesn&apos;t contain target column (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable calls server if DOM doesn&apos;t contain target column (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+  <Test>
+    <Name>viewTable adds icon column if server returns locked items (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable adds icon column if server returns locked items (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+  <Test>
+    <Name>viewTable doesn&apos;t add icon column if server returns no locked items (Chrome 41.0.2272 (Windows 8))</Name>
+    <DisplayName>viewTable doesn&apos;t add icon column if server returns no locked items (Chrome 41.0.2272 (Windows 8))</DisplayName>
+    <Outcome>Passed</Outcome>
+  </Test>
+</Tests>

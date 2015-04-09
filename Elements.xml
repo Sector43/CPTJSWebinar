@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="jsTests\Fixtures\ViewTableStyleFixture.css" Url="jsTests/Fixtures/ViewTableStyleFixture.css" ReplaceContent="TRUE" />
+    <File Path="jsTests\Fixtures\ViewTableDataFixture.json" Url="jsTests/Fixtures/ViewTableDataFixture.json" ReplaceContent="TRUE" />
+    <File Path="jsTests\Fixtures\ViewTableFixtureNoItems.html" Url="jsTests/Fixtures/ViewTableFixtureNoItems.html" ReplaceContent="TRUE" />
+    <File Path="jsTests\Fixtures\ViewTableDataFixtureNoItems.json" Url="jsTests/Fixtures/ViewTableDataFixtureNoItems.json" ReplaceContent="TRUE" />
+    <File Path="jsTests\Fixtures\ViewTableDataFixtureNoLockedItems.json" Url="jsTests/Fixtures/ViewTableDataFixtureNoLockedItems.json" ReplaceContent="TRUE" />
+    <File Path="jsTests\Fixtures\ViewTableDataFixtureNoLockedColumn.json" Url="jsTests/Fixtures/ViewTableDataFixtureNoLockedColumn.json" ReplaceContent="TRUE" />
+    <File Path="jsTests\Fixtures\ServerResponse.json" Url="jsTests/Fixtures/ServerResponse.json" ReplaceContent="TRUE" />
+    <File Path="jsTests\Fixtures\ServerResponseNoLockedItems.json" Url="jsTests/Fixtures/ServerResponseNoLockedItems.json" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

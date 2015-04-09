@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\viewTable.js" Url="Scripts/viewTable.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\utils\LogManager.js" Url="Scripts/utils/LogManager.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\utils\RestUtils.js" Url="Scripts/utils/RestUtils.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\utils\RestUtilsMock.js" Url="Scripts/utils/RestUtilsMock.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\TestingDemo.js.bundle" Url="Scripts/TestingDemo.js.bundle" ReplaceContent="TRUE" />
+    <File Path="Scripts\TestingDemo.js" Url="Scripts/TestingDemo.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\TestingDemo.min.js" Url="Scripts/TestingDemo.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\TestingDemo.min.js.map" Url="Scripts/TestingDemo.min.js.map" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

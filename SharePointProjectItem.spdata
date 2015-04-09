@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Type="ElementManifest" />
+    <ProjectItemFile Source="_references.js" Type="ElementFile" />
+    <ProjectItemFile Source="jsTests\Fixtures\ViewTableStyleFixture.css" Target="jsTests\Fixtures\" Type="ElementFile" />
+    <ProjectItemFile Source="jsTests\Fixtures\ViewTableDataFixture.json" Target="jsTests\Fixtures\" Type="ElementFile" />
+    <ProjectItemFile Source="jsTests\Fixtures\ViewTableFixtureNoItems.html" Target="jsTests\Fixtures\" Type="ElementFile" />
+    <ProjectItemFile Source="jsTests\Fixtures\ViewTableDataFixtureNoItems.json" Target="jsTests\Fixtures\" Type="ElementFile" />
+    <ProjectItemFile Source="jsTests\Fixtures\ViewTableDataFixtureNoLockedItems.json" Target="jsTests\Fixtures\" Type="ElementFile" />
+    <ProjectItemFile Source="jsTests\Fixtures\ViewTableDataFixtureNoLockedColumn.json" Target="jsTests\Fixtures\" Type="ElementFile" />
+    <ProjectItemFile Source="jsTests\Fixtures\ServerResponse.json" Target="jsTests\Fixtures\" Type="ElementFile" />
+    <ProjectItemFile Source="jsTests\Fixtures\ServerResponseNoLockedItems.json" Target="jsTests\Fixtures\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

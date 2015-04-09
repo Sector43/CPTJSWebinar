@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="DemoList" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/DemoList" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Item 1</Field>
+          <Field Name="IsLocked">false</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Item 2</Field>
+          <Field Name="IsLocked">true</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Item 3</Field>
+          <Field Name="IsLocked">true</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Item 4</Field>
+          <Field Name="IsLocked">false</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Item 5</Field>
+          <Field Name="IsLocked">true</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

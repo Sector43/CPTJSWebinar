@@ -1,0 +1,5 @@
+﻿/* Place custom styles below */
+
+.table.ms-listviewtable{
+    display:none;
+}

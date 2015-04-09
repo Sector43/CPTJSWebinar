@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0275882B-3D86-46CE-B8A6-94DA5DBD7A2E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestingDemo</RootNamespace>
+    <AssemblyName>TestingDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>11.1</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{892879f6-7af5-44b3-9f65-9b5e2758cae5}</AppFeaturePartId>
+    <WspPartId>{477d5c00-2fa6-41ab-99f6-0f2bbc1edae7}</WspPartId>
+    <WorkflowPartId>{72b60193-e8c7-4a34-bf99-674f3d9f0dc0}</WorkflowPartId>
+    <CspkgPartId>{11a35d96-4148-48e8-8d56-39e5529d2948}</CspkgPartId>
+    <SqlPackagePartId>{ef42d96f-7236-40a8-80f8-403241af84bc}</SqlPackagePartId>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="jsTests\Fixtures\ViewTableFixture.html" />
+    <Content Include="jsTests\Fixtures\ViewTableFixtureNoItems.html" />
+    <Content Include="jsTests\Fixtures\ViewTableFixtureNoLockedColumn.html" />
+    <Content Include="jsTests\Fixtures\ViewTableStyleFixture.css" />
+    <Content Include="karma.conf.js" />
+    <Content Include="jsTests\viewTableTests.js" />
+    <Content Include="ScriptAction\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\utils\LogManager.js" />
+    <Content Include="Scripts\utils\RestUtilsMock.js" />
+    <Content Include="Scripts\utils\RestUtils.js" />
+    <Content Include="Scripts\TestingDemo.js">
+      <DependentUpon>TestingDemo.js.bundle</DependentUpon>
+    </Content>
+    <Content Include="Scripts\TestingDemo.min.js">
+      <DependentUpon>TestingDemo.js</DependentUpon>
+    </Content>
+    <Content Include="_references.js" />
+    <None Include="jsTests\Fixtures\ServerResponseNoLockedItems.json" />
+    <None Include="jsTests\Fixtures\ServerResponse.json" />
+    <None Include="jsTests\Fixtures\ViewTableDataFixtureNoLockedColumn.json" />
+    <None Include="jsTests\Fixtures\ViewTableDataFixtureNoItems.json" />
+    <None Include="jsTests\Fixtures\ViewTableDataFixture.json" />
+    <None Include="jsTests\Fixtures\ViewTableDataFixtureNoLockedItems.json" />
+    <None Include="Lists\DemoList\DemoListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d7c840c2-f06c-48f4-9fb0-8e96b13b67fe}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\DemoList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cb0841f2-49ff-4db6-aaba-15be791eab2d}</SharePointProjectItemId>
+    </None>
+    <None Include="package.json" />
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ae143422-56aa-431c-ab8d-8196f99763f3}</SharePointProjectItemId>
+    </None>
+    <Content Include="Elements.xml" />
+    <Content Include="Lists\DemoList\DemoListInstance\Elements.xml" />
+    <Content Include="Lists\DemoList\Elements.xml" />
+    <Content Include="Lists\DemoList\Schema.xml" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="ScriptAction\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cb44fc54-3b63-4b7e-b5af-8f263f7252bb}</SharePointProjectItemId>
+    </None>
+    <None Include="Scripts\TestingDemo.js.bundle" />
+    <None Include="Scripts\TestingDemo.min.js.map">
+      <DependentUpon>TestingDemo.min.js</DependentUpon>
+    </None>
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{42582454-fcf1-49bb-984d-6b8305a754c2}</SharePointProjectItemId>
+    </None>
+    <None Include="test-results.testxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ef42d96f-7236-40a8-80f8-403241af84bc}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\viewTable.js" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c452d369-b86f-4475-8113-db69c68dfbce}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8af54db8-4e9c-4635-9f0a-c5f58b3f8ce4}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{6eb593fa-fbc6-4003-81ea-7b791cdbce3c}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{d51e31ac-0672-4481-8d9a-d48a07273c34}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+</Project>

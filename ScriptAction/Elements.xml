@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  
+  
+  <CustomAction
+          Id="JQuery"
+          ScriptSrc="~Site/Scripts/jquery-1.9.1.min.js"
+          Location="ScriptLink">
+  </CustomAction>
+  
+  <CustomAction
+          Id="CustomViewScript"
+          ScriptSrc="~Site/Scripts/TestingDemo.js"
+          Location="ScriptLink">
+  </CustomAction>
+</Elements>
+
+
+
+

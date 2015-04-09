@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "jasmine-jquery": "^2.0.6",
+    "karma-cli": "0.0.4"
+  }
+}
