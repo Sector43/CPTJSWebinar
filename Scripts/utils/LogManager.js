@@ -1,3 +1,7 @@
+﻿//
+﻿//       (c) 2015, David Mann / Sector 43 - www.sector43.com
+﻿//       Released under the MIT license.  See license file for details
+﻿//
 ﻿
 (function () {
     "use strict"; 
